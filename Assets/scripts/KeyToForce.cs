@@ -22,6 +22,7 @@ public class KeyToForce : MonoBehaviour {
 		else {
 			UpdateForce(DefaultForce);
 		}
+		//UpdateForce(PressedForce);
 	}
 
 	void UpdateForce(Vector3 updatedForce) 
